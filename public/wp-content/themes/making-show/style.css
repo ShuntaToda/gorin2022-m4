@@ -1,0 +1,133 @@
+/*
+
+Template: blankslate
+Theme Name: MakingShow
+*/ /*# sourceMappingURL=style.css.map */
+.l-header__head {
+  width: 250px;
+}
+.l-header__logo {
+  width: 100%;
+}
+.l-header__logo > img {
+  width: 100%;
+}
+.l-header__ticket {
+  background: white;
+}
+
+.c-main-view {
+  height: calc(100vh - 200px) !important;
+  position: relative;
+  height: 100%;
+}
+.c-main-view > .carousel-inner {
+  height: 100%;
+}
+.c-main-view > .carousel-inner > .carousel-item {
+  height: 100%;
+  width: 100%;
+}
+.c-main-view > .carousel-inner > .carousel-item > img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.c-main-view__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.281);
+  color: white;
+}
+.c-main-view__text-lead {
+  font-size: 20px;
+}
+@media (max-width: 550px) {
+  .c-main-view__text-lead > span {
+    display: block;
+  }
+}
+.c-main-view__text-title {
+  font-size: 40px;
+}
+@media (max-width: 550px) {
+  .c-main-view__text-title {
+    font-size: 30px;
+  }
+}
+.c-main-view__text-day {
+  font-size: 30px;
+  font-weight: bold;
+}
+@media (max-width: 550px) {
+  .c-main-view__text-day {
+    font-size: 16px;
+  }
+}
+
+.c-card__link {
+  transition: 0.3s;
+}
+.c-card__link:hover {
+  opacity: 0.8;
+}
+.c-card__text-content > p {
+  color: #333;
+}
+.c-card__body {
+  flex-grow: 1;
+}
+
+.c-open-info__img {
+  width: 450px;
+  height: auto;
+}
+.c-open-info__img > img {
+  width: 100%;
+  height: 100;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.c-ticket {
+  height: 200px;
+  position: relative;
+}
+.c-ticket__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  font-weight: bold;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.342);
+}
+.c-ticket__img {
+  width: 100%;
+  height: 100%;
+}
+.c-ticket__img > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.l-footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
